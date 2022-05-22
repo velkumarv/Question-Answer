@@ -1,0 +1,62 @@
+
+       Answers:-
+
+1.Explain about the main method in java?
+Java main method is the entry point of any java program. Its syntax is always public static void main(String[] args) . You can only change the name of String array argument, for example you can change args to myStringArgs . Also String array argument can be written as String.args or String args[].
+-------------------------------------------------------------------------------
+2.What are the different  Control flow Statements available in java?
+	1.Decision making statements
+		1)if statement
+		2)if-else statement
+		3)the switch statement
+	2.loop statement
+		1)for loop
+		2)while loop
+		3)do-while loop
+	3.Branching loop
+		1)break statement
+		2)continue statement
+		3)return statement
+-------------------------------------------------------------------------------
+3.What is the Difference betweeen break and continue statements?
+	Break:-
+		--> when break is executed the statement following break are skipped and cause the loop to be terminated. It can be used in switch statement to transfer the control outside switch.
+for example:-
+	for example(i=1;i<=5;i++){
+	if (i%2==0)break;
+	printf("%d",i);}  
+continue:-
+	when continue statement is executed,the statements following continue are skipped and cause the loop to be continued with the next iteration.It cannot be used only with loops.
+output:- 1
+for example:-
+	for example(i=1;i<=5;i++){
+	if (i%2==0)continue;
+	printf("%d",i);}  
+output:- 135
+-------------------------------------------------------------------------------
+4.What is an Array? How will you declare an array in java?
+	An array is a collection of similar data elements.Its length is fixed.
+We declare an array in Java as we do other variables, by providing a type and name: int[] myArray.
+-------------------------------------------------------------------------------
+5.When will you get ArrayIndexOutOfBoundsException?
+	ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, that is backed by an array with an invalid index. This means that the index is either less than zero or greater than or equal to the size of the array.
+-------------------------------------------------------------------------------
+6.Define the Syntax to create an object for a class.
+What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examoles
+	Java follows camel-case syntax for naming the class, interface, method, and variable. If the name is combined with two words, the second word will start with uppercase letter always such as actionPerformed(), firstName, ActionEvent, ActionListener, etc.
+-------------------------------------------------------------------------------
+7.What is Variable?How will you declare a variables in java?
+	A variable is a place to store a piece of data. It has a name, a value, and a type. For example, this statement int pin = 13; creates a variable whose name is pin , whose value is 13 , and whose type is int.
+-------------------------------------------------------------------------------
+8.What is String in java? Is it a Data Type?
+	String is a class in java and reference data type.String is a array of character so it is not a primitive data type.
+-------------------------------------------------------------------------------
+9.What are the different ways to create the String Object in java?
+	There are two ways to create a String object.
+By string literal : Java String literal is created by using double quotes. For Example: String s=“Welcome”.
+By new keyword : Java String is created by using a keyword “new”. For example: String s=new String(“Welcome”).
+-------------------------------------------------------------------------------
+10.What is the Difference between .Equals and ==?
+(==) checks if both objects point to the same memory location.
+. equals() evaluates to the comparison of values in the objects 
